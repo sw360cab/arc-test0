@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  supernova:
-    name: dabber-basic-ci
-    runs-on: gnolang-self-runner
+  dagger0:
+    name: dagger-basic-ci
+    runs-on: gnolang-self-runner-large
     steps:
       - name: Checkout
         uses: actions/checkout@v5
